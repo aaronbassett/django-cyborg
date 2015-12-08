@@ -1,0 +1,7 @@
+User-Agent: *
+
+Disallow: /injure/or/allow/humans/to/be/injured
+Disallow: /ignoring/human/orders
+Disallow: /harm/to/self
+
+# Sitemap: http://www.example.com/sitemap.xml

@@ -1,0 +1,39 @@
+# Coding Style for EditorConfig
+# Author: Aaron Bassett
+#
+# https://github.com/aaronbassett/EditorConfig
+# Released under the MIT license
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+max_line_length = 79
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Experimental / Domain specific properties
+curly_bracket_next_line = false
+spaces_around_operators = true
+spaces_around_brackets = false
+indent_brace_style = KNF
+
+[*.py]
+max_line_length = 99
+
+[*.{html,jinja,css,scss,stylus,json,yml}]
+trim_trailing_whitespace = false
+insert_final_newline = false
+indent_size = 2
+
+# Coffeescript inherited Ruby's bad habits
+[*.{coffee,coffeescript,js}]
+indent_size = 2
+
+[*.{md,rst}]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+insert_final_newline = false
