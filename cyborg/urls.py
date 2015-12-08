@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 
 cyborg_patterns = [
     url(
-        r'^/?robots\.txt$',
+        r'^robots\.txt$',
         TemplateView.as_view(
             template_name='cyborg/robots.txt',
             content_type='text/plain'
@@ -12,7 +12,7 @@ cyborg_patterns = [
         name='robots'
     ),
     url(
-        r'^/?humans\.txt$',
+        r'^humans\.txt$',
         TemplateView.as_view(
             template_name='cyborg/humans.txt',
             content_type='text/plain'

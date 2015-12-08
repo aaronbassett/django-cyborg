@@ -32,7 +32,7 @@ Add cyborg your INSTALLED_APPS::
 
 Add cyborg to your urls.py::
 
-    url(r'^$', include('cyborg.urls')),
+    url(r'^', include('cyborg.urls')),
 
 Customising
 -----------
