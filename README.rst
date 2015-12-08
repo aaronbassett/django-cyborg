@@ -4,9 +4,15 @@ django-cyborg
 
 .. image:: https://badge.fury.io/py/django-cyborg.png
     :target: https://badge.fury.io/py/django-cyborg
+    :alt: Current PyPi version
 
 .. image:: https://travis-ci.org/aaronbassett/django-cyborg.png?branch=master
     :target: https://travis-ci.org/aaronbassett/django-cyborg
+    :alt: Build status
+
+.. image:: https://requires.io/github/aaronbassett/django-cyborg/requirements.svg?branch=master
+     :target: https://requires.io/github/aaronbassett/django-cyborg/requirements/?branch=master
+     :alt: Requirements Status
 
 A simple way to add robots.txt and humans.txt to your Django project
 
